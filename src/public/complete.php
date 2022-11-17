@@ -19,7 +19,6 @@ $pdo = new PDO(
   $stmt->bindParam( ':name', $name, PDO::PARAM_STR);
   $stmt->bindParam( ':food_answer', $food_answer, PDO::PARAM_STR);
   $stmt->bindParam( ':hobby_answer', $hobby_answer, PDO::PARAM_STR);
-  $res = $stmt->execute();
 
 ?>
 
